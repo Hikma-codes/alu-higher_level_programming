@@ -3,7 +3,7 @@ Step1
 
 Importing
 
-       >>> MyList = _import_('1-my_list').MyList
+       >>> MyList = import('1-my_list').MyList
 
 Create an object
 
