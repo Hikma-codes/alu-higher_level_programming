@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This program takes the file add_item.json, and add the
+This program is to take the file add_item.json, and add the
 parameters to the list inside this file.
 - If the file doesn't exist create it.
 - If no exist parameters do nothing or create the list if the file is empty.
