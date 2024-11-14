@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This program is to converts JSON to dictionaries
+This program is to convert JSON to dictionaries
 """
 
 
@@ -9,7 +9,7 @@ import json
 
 def from_json_string(my_str):
     """
-    This is to return an object (Python data structure) represented by a JSON stringx
+    Returns an object (Python data structure) represented by a JSON stringx
     Args:
       - my_str: str
     """
