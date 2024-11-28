@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A script that:
+"""The script that:
 - takes in a URL
 - sends a POST request to the passed URL
 - takes email as a parameter
@@ -17,4 +17,4 @@ if __name__ == "__main__":
 
     request = urllib.request.Request(url, data)
     with urllib.request.urlopen(request) as response:
-        print(response.read().decode("utf-8"))i
+        print(response.read().decode("utf-8"))
