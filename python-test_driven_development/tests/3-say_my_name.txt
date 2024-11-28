@@ -12,21 +12,21 @@ Usage
 ::
 
     >>> say_my_name = __import__('3-say_my_name').say_my_name
-    >>> say_my_name("Helen", "Agyei")
-    My name is Helen Agyei
+    >>> say_my_name("Walter", "Agyei")
+    My name is Walter Agyei
 
 ::
 
-    >>> say_my_name("Julie Barbs", "John II")
-    My name is Julie Barbs John III
+    >>> say_my_name("Cornelia Weisis", "John II")
+    My name is Cornelia Weisis John II
 
 The parameter ```last_name``` is optional. If no last name is provided,
 an empty string is printed instead.
 
 ::
 
-    >>> say_my_name("Helen")
-    My name is Helen
+    >>> say_my_name("Walter")
+    My name is Walter 
 
 Invalid Names
 =============
@@ -36,19 +36,19 @@ a TypeError is raised.
 
 ::
 
-    >>> say_my_name(6, "Tems")
+    >>> say_my_name(6, "Jewell")
     Traceback (most recent call last):
     TypeError: first_name must be a string
 
 ::
 
-    >>> say_my_name("Brwoone, ["Calvin", "Klein", "Dope"])
+    >>> say_my_name("Larry", ["Canvas", "Barca", "Dope"])
     Traceback (most recent call last):
     TypeError: last_name must be a string
 
 ::
 
-    >>> say_my_name({"Brwoone: 6, "Tems": 13}, 8.7)
+    >>> say_my_name({"Larry": 6, "Jewell": 23}, 7.7)
     Traceback (most recent call last):
     TypeError: first_name must be a string
 
