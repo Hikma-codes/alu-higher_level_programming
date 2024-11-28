@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-The Python script that takes in a URL and an email address,
+ Python script that takes in a URL and an email address,
 sends a POST request to the passed URL with the email,
 and displays the body of the response
 """
