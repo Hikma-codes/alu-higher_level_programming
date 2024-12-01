@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Deletes all the State objects with name containing letter "a"
+"""Deletes all State objects with name containing letter "a"
 from db 'hbtn_0e_6_usa'
 """
 import sys
