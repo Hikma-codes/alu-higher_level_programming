@@ -1,4 +1,6 @@
-t readFile = () => {
+#!/usr/bin/node
+
+const readFile = () => {
   const args = process.argv;
   const arg = args[2];
 
